@@ -17251,7 +17251,7 @@ body {
 
 body {
   background-color: #fbfbfb;
-  background-image: url("/src/img/marble.png");
+  background-image: url("marble.png");
 }
 
 .card.bg-success {
