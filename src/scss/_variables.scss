@@ -43,6 +43,7 @@ $green:      #42ba96 !default;
 $teal:       #20c997 !default;
 $cyan:       #17a2b8 !default;
 $light-blue: #69d2f1 !default;
+$dart-blue:  #2396B8 !default;
 
 $colors: () !default;
 $colors: map-merge(
@@ -65,7 +66,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $purple !default;
+$primary:       $dart-blue !default;
 $secondary:     $gray-300 !default;
 $success:       $green !default;
 $info:          $blue !default;
@@ -108,7 +109,7 @@ $input-btn-focus-width:       0rem !default;
 
 // General
 
-$body-bg:                     $gray-100 !default;
+$body-bg:                     #fbfbfb !default;
 
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
